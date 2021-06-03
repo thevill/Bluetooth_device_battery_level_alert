@@ -11,9 +11,9 @@ def email_alert(subject, body, to):
     msg['subject'] = subject
     msg['to'] = to
 
-    user = "<mail-id>"
+    user = "<use-your-mail-id>"
     msg['from'] = user
-    password = "<password>"
+    password = "<use-your-password>"
 
     server = smtplib.SMTP("smtp.gmail.com", 587)
     server.starttls()
@@ -75,7 +75,7 @@ def get_at_command(sock, line, device):
     if blevel != -1:
         print(f"Battery level for {device} is {blevel}%")
         if blevel < 80:
-            email_alert("Alert!", "Your bluetooth battery percentage is less than 80%", "<mail-id>")
+            email_alert("Alert!", "Your bluetooth battery percentage is less than 80%", "<your-mail-id>")
         return False
     return True
                 
