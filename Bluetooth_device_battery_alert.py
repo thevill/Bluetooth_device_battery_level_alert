@@ -75,7 +75,7 @@ def get_at_command(sock, line, device):
     if blevel != -1:
         print(f"Battery level for {device} is {blevel}%")
         if blevel < 80:
-            email_alert("Alert!", "Your bluetooth battery percentage is less than 80%", "<your-mail-id>")
+            email_alert("Alert!", "Your bluetooth battery percentage is less than 80%", "<your-TO-mail-id>")
         return False
     return True
                 
