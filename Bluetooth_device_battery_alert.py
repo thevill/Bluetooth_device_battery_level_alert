@@ -1,5 +1,5 @@
 #created by Pranay Wajjala
-#greenscizor#bhavitavya
+#thevill#bhavitavya
 
 from bluetooth import *
 import bluetooth
