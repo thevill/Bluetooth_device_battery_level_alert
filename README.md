@@ -4,6 +4,6 @@ This CLI based program searches for nearby bluetooth devices, lets you pair with
 
 This program utilizes Gmail's API to send email and also https://github.com/TheWeirdDev/Bluetooth_Headset_Battery_Level to read battery level of the connected bluetooth device.
 
-This program can be used for automation. http://127.0.0.1:5000
+This program can be used for automation.
 
 PLEASE MAKE APPROPRIATE CHANGES IN THE PROGRAM BEFORE RUNNING (EX: email-id, password).
